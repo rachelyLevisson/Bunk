@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "NsGF38yAPrgllM8IVj8/mlaCXJEUmgXiGc4s3cn68JOgQw3vNxvWb/tRodMo2Q2Aj9sl4Camk3l/3tLDOa4+pQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk\\Bunk.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Swashbuckle.AspNetCore"
+    }
+  ]
+}
