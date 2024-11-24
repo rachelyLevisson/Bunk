@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Y:\\Groups\\Group_3\\לויסון רחל\\פרויקט דוטנט שהורדתי\\Bunk\\Bunk\\Bunk\\Bunk.csproj": {}
+    "Y:\\Groups\\Group_3\\לויסון רחל\\פרויקט דוטנט שהורדתי\\Bunk\\Bunk\\UnitTest\\UnitTest.csproj": {}
   },
   "projects": {
-    "Y:\\Groups\\Group_3\\לויסון רחל\\פרויקט דוטנט שהורדתי\\Bunk\\Bunk\\Bunk\\Bunk.csproj": {
+    "Y:\\Groups\\Group_3\\לויסון רחל\\פרויקט דוטנט שהורדתי\\Bunk\\Bunk\\UnitTest\\UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Y:\\Groups\\Group_3\\לויסון רחל\\פרויקט דוטנט שהורדתי\\Bunk\\Bunk\\Bunk\\Bunk.csproj",
-        "projectName": "Bunk",
-        "projectPath": "Y:\\Groups\\Group_3\\לויסון רחל\\פרויקט דוטנט שהורדתי\\Bunk\\Bunk\\Bunk\\Bunk.csproj",
+        "projectUniqueName": "Y:\\Groups\\Group_3\\לויסון רחל\\פרויקט דוטנט שהורדתי\\Bunk\\Bunk\\UnitTest\\UnitTest.csproj",
+        "projectName": "UnitTest",
+        "projectPath": "Y:\\Groups\\Group_3\\לויסון רחל\\פרויקט דוטנט שהורדתי\\Bunk\\Bunk\\UnitTest\\UnitTest.csproj",
         "packagesPath": "C:\\Users\\hitmachut\\.nuget\\packages\\",
-        "outputPath": "Y:\\Groups\\Group_3\\לויסון רחל\\פרויקט דוטנט שהורדתי\\Bunk\\Bunk\\Bunk\\obj\\",
+        "outputPath": "Y:\\Groups\\Group_3\\לויסון רחל\\פרויקט דוטנט שהורדתי\\Bunk\\Bunk\\UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
