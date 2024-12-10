@@ -1,0 +1,15 @@
+C:\Users\לויסון\Desktop\Bunk\Bunk.Data\bin\Debug\net6.0\Bunk.Data.deps.json
+C:\Users\לויסון\Desktop\Bunk\Bunk.Data\bin\Debug\net6.0\Bunk.Data.dll
+C:\Users\לויסון\Desktop\Bunk\Bunk.Data\bin\Debug\net6.0\Bunk.Data.pdb
+C:\Users\לויסון\Desktop\Bunk\Bunk.Data\bin\Debug\net6.0\Bunk.Core.dll
+C:\Users\לויסון\Desktop\Bunk\Bunk.Data\bin\Debug\net6.0\Bunk.Core.pdb
+C:\Users\לויסון\Desktop\Bunk\Bunk.Data\obj\Debug\net6.0\Bunk.Data.csproj.AssemblyReference.cache
+C:\Users\לויסון\Desktop\Bunk\Bunk.Data\obj\Debug\net6.0\Bunk.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\לויסון\Desktop\Bunk\Bunk.Data\obj\Debug\net6.0\Bunk.Data.AssemblyInfoInputs.cache
+C:\Users\לויסון\Desktop\Bunk\Bunk.Data\obj\Debug\net6.0\Bunk.Data.AssemblyInfo.cs
+C:\Users\לויסון\Desktop\Bunk\Bunk.Data\obj\Debug\net6.0\Bunk.Data.csproj.CoreCompileInputs.cache
+C:\Users\לויסון\Desktop\Bunk\Bunk.Data\obj\Debug\net6.0\Bunk.Data.csproj.CopyComplete
+C:\Users\לויסון\Desktop\Bunk\Bunk.Data\obj\Debug\net6.0\Bunk.Data.dll
+C:\Users\לויסון\Desktop\Bunk\Bunk.Data\obj\Debug\net6.0\refint\Bunk.Data.dll
+C:\Users\לויסון\Desktop\Bunk\Bunk.Data\obj\Debug\net6.0\Bunk.Data.pdb
+C:\Users\לויסון\Desktop\Bunk\Bunk.Data\obj\Debug\net6.0\ref\Bunk.Data.dll
