@@ -1,27 +1,22 @@
 ﻿using Bunk.Core.Entity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using System.Diagnostics;
 
 namespace Bunk.Data
 {
-    public class DataContext
+    public class DataContext : DbContext
     {
-        public List<Account> Accounts { get; set; }
-        public List<Bunker> Bunkers { get; set; }
-        public List<Customer> Customers { get; set; }
+        public DbSet<Account> Accounts { get; set; }
+        public DbSet<Bunker> Bunkers { get; set; }
+        public DbSet<Customer> Customers { get; set; }
 
-        public DataContext()
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            Customers = new List<Customer>();
-            Customers.Add(new Customer { Id = 1, Name = "Sara" });
-            Accounts = new List<Account>();
-            Accounts.Add(new Account { Id = 1, User = new Customer(), CurrentAccount = 2.5, Debit = 50.8, DateOpen = new DateOnly() });
-            Bunkers = new List<Bunker>();
-            Bunkers.Add(new Bunker { Id = 1, Name = "Markantil", Salary = 50000, Vetek = 7, WorkHour = 6, BornDate = new DateOnly() });
-
+            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=my_db");
+            optionsBuilder.LogTo(message => Debug.WriteLine(message));
         }
+
+
     }
 }

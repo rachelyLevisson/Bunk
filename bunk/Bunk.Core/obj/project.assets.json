@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.Core\\Bunk.Core.csproj",
+      "projectUniqueName": "D:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj",
       "projectName": "Bunk.Core",
-      "projectPath": "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.Core\\Bunk.Core.csproj",
+      "projectPath": "D:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj",
       "packagesPath": "C:\\Users\\לויסון\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.Core\\obj\\",
+      "outputPath": "D:\\Bunk\\bunk\\Bunk.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

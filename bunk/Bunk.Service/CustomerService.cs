@@ -18,9 +18,29 @@ namespace Bunk.Service
             _customerRepository = customerRepository;
         }
 
-        public List<Customer> GetAll()
+        public List<Customer> GetList()
         {
-            return _customerRepository.GetList();
+            return _customerRepository.GetAll();
+        }
+
+        public Customer? GetById(int id)
+        {
+            return _customerRepository.GetById(id);
+        }
+
+        public Customer Add(Customer Customer)
+        {
+            return _customerRepository.Add(Customer);
+        }
+
+        public Customer Update(Customer Customer)
+        {
+            return _customerRepository.Update(Customer);
+        }
+
+        public void Delete(int id)
+        {
+            _customerRepository.Delete(id);
         }
     }
 }

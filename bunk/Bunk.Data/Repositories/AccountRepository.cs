@@ -19,7 +19,7 @@ namespace Bunk.Data.Repositories
 
         public List<Account> GetList()
         {
-            return _dataContext.Accounts;
+            return _dataContext.Accounts.ToList();
         }
     }
 }

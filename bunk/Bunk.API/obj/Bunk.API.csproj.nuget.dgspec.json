@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.API\\Bunk.API.csproj": {}
+    "D:\\Bunk\\bunk\\Bunk.API\\Bunk.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.API\\Bunk.API.csproj": {
+    "D:\\Bunk\\bunk\\Bunk.API\\Bunk.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.API\\Bunk.API.csproj",
+        "projectUniqueName": "D:\\Bunk\\bunk\\Bunk.API\\Bunk.API.csproj",
         "projectName": "Bunk.API",
-        "projectPath": "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.API\\Bunk.API.csproj",
+        "projectPath": "D:\\Bunk\\bunk\\Bunk.API\\Bunk.API.csproj",
         "packagesPath": "C:\\Users\\לויסון\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.API\\obj\\",
+        "outputPath": "D:\\Bunk\\bunk\\Bunk.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.Data\\Bunk.Data.csproj": {
-                "projectPath": "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.Data\\Bunk.Data.csproj"
+              "D:\\Bunk\\bunk\\Bunk.Data\\Bunk.Data.csproj": {
+                "projectPath": "D:\\Bunk\\bunk\\Bunk.Data\\Bunk.Data.csproj"
               },
-              "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.Service\\Bunk.Service.csproj": {
-                "projectPath": "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.Service\\Bunk.Service.csproj"
+              "D:\\Bunk\\bunk\\Bunk.Service\\Bunk.Service.csproj": {
+                "projectPath": "D:\\Bunk\\bunk\\Bunk.Service\\Bunk.Service.csproj"
               }
             }
           }
@@ -51,6 +51,12 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.36, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -78,14 +84,14 @@
         }
       }
     },
-    "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.Core\\Bunk.Core.csproj": {
+    "D:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.Core\\Bunk.Core.csproj",
+        "projectUniqueName": "D:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj",
         "projectName": "Bunk.Core",
-        "projectPath": "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.Core\\Bunk.Core.csproj",
+        "projectPath": "D:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj",
         "packagesPath": "C:\\Users\\לויסון\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.Core\\obj\\",
+        "outputPath": "D:\\Bunk\\bunk\\Bunk.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -136,14 +142,14 @@
         }
       }
     },
-    "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.Data\\Bunk.Data.csproj": {
+    "D:\\Bunk\\bunk\\Bunk.Data\\Bunk.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.Data\\Bunk.Data.csproj",
+        "projectUniqueName": "D:\\Bunk\\bunk\\Bunk.Data\\Bunk.Data.csproj",
         "projectName": "Bunk.Data",
-        "projectPath": "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.Data\\Bunk.Data.csproj",
+        "projectPath": "D:\\Bunk\\bunk\\Bunk.Data\\Bunk.Data.csproj",
         "packagesPath": "C:\\Users\\לויסון\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.Data\\obj\\",
+        "outputPath": "D:\\Bunk\\bunk\\Bunk.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -164,8 +170,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.Core\\Bunk.Core.csproj": {
-                "projectPath": "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.Core\\Bunk.Core.csproj"
+              "D:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj": {
+                "projectPath": "D:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj"
               }
             }
           }
@@ -179,6 +185,18 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.36, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.36, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -198,14 +216,14 @@
         }
       }
     },
-    "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.Service\\Bunk.Service.csproj": {
+    "D:\\Bunk\\bunk\\Bunk.Service\\Bunk.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.Service\\Bunk.Service.csproj",
+        "projectUniqueName": "D:\\Bunk\\bunk\\Bunk.Service\\Bunk.Service.csproj",
         "projectName": "Bunk.Service",
-        "projectPath": "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.Service\\Bunk.Service.csproj",
+        "projectPath": "D:\\Bunk\\bunk\\Bunk.Service\\Bunk.Service.csproj",
         "packagesPath": "C:\\Users\\לויסון\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.Service\\obj\\",
+        "outputPath": "D:\\Bunk\\bunk\\Bunk.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -226,8 +244,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.Core\\Bunk.Core.csproj": {
-                "projectPath": "C:\\Users\\לויסון\\Desktop\\Bunk\\Bunk.Core\\Bunk.Core.csproj"
+              "D:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj": {
+                "projectPath": "D:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj"
               }
             }
           }

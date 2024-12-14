@@ -10,3 +10,15 @@ C:\Users\לויסון\Desktop\Bunk\Bunk.Core\obj\Debug\net6.0\Bunk.Core.dll
 C:\Users\לויסון\Desktop\Bunk\Bunk.Core\obj\Debug\net6.0\refint\Bunk.Core.dll
 C:\Users\לויסון\Desktop\Bunk\Bunk.Core\obj\Debug\net6.0\Bunk.Core.pdb
 C:\Users\לויסון\Desktop\Bunk\Bunk.Core\obj\Debug\net6.0\ref\Bunk.Core.dll
+D:\Bunk\bunk\Bunk.Core\bin\Debug\net6.0\Bunk.Core.deps.json
+D:\Bunk\bunk\Bunk.Core\bin\Debug\net6.0\Bunk.Core.dll
+D:\Bunk\bunk\Bunk.Core\bin\Debug\net6.0\Bunk.Core.pdb
+D:\Bunk\bunk\Bunk.Core\obj\Debug\net6.0\Bunk.Core.csproj.AssemblyReference.cache
+D:\Bunk\bunk\Bunk.Core\obj\Debug\net6.0\Bunk.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bunk\bunk\Bunk.Core\obj\Debug\net6.0\Bunk.Core.AssemblyInfoInputs.cache
+D:\Bunk\bunk\Bunk.Core\obj\Debug\net6.0\Bunk.Core.AssemblyInfo.cs
+D:\Bunk\bunk\Bunk.Core\obj\Debug\net6.0\Bunk.Core.csproj.CoreCompileInputs.cache
+D:\Bunk\bunk\Bunk.Core\obj\Debug\net6.0\Bunk.Core.dll
+D:\Bunk\bunk\Bunk.Core\obj\Debug\net6.0\refint\Bunk.Core.dll
+D:\Bunk\bunk\Bunk.Core\obj\Debug\net6.0\Bunk.Core.pdb
+D:\Bunk\bunk\Bunk.Core\obj\Debug\net6.0\ref\Bunk.Core.dll

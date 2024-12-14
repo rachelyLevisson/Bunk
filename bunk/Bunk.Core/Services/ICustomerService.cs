@@ -9,6 +9,14 @@ namespace Bunk.Core.Services
 {
     public interface ICustomerService
     {
-        List<Customer> GetAll();
+        List<Customer> GetList();
+
+        Customer? GetById(int id);
+
+        Customer Add(Customer customer);
+
+        Customer Update(Customer customer);
+
+        void Delete(int id);
     }
 }

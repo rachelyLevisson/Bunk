@@ -9,6 +9,14 @@ namespace Bunk.Core.Repositories
 {
     public interface ICustomerRepository
     {
-        List<Customer> GetList();
+        List<Customer> GetAll();
+
+        Customer? GetById(int id);
+
+        Customer Add(Customer customer);
+
+        Customer Update(Customer customer);
+
+        void Delete(int id);
     }
 }
