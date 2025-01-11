@@ -19,14 +19,9 @@ namespace UnitText
             FakeContext fakeContext = new FakeContext();
              _controller = new CustomerController(fakeContext);
         }
-
-
         [Fact]
         public void GetAll_RetrunsListOfCustomer()
-        {
-           
-
-            
+        {  
             var result = _controller.Get();
 
             Assert.IsType<List<Customer>>(result);
