@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj": {}
+    "E:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj": {}
   },
   "projects": {
-    "D:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj": {
+    "E:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj",
+        "projectUniqueName": "E:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj",
         "projectName": "Bunk.Core",
-        "projectPath": "D:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj",
+        "projectPath": "E:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj",
         "packagesPath": "C:\\Users\\לויסון\\.nuget\\packages\\",
-        "outputPath": "D:\\Bunk\\bunk\\Bunk.Core\\obj\\",
+        "outputPath": "E:\\Bunk\\bunk\\Bunk.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

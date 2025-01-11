@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Bunk\\bunk\\Bunk.Service\\Bunk.Service.csproj",
+      "projectUniqueName": "E:\\Bunk\\bunk\\Bunk.Service\\Bunk.Service.csproj",
       "projectName": "Bunk.Service",
-      "projectPath": "D:\\Bunk\\bunk\\Bunk.Service\\Bunk.Service.csproj",
+      "projectPath": "E:\\Bunk\\bunk\\Bunk.Service\\Bunk.Service.csproj",
       "packagesPath": "C:\\Users\\לויסון\\.nuget\\packages\\",
-      "outputPath": "D:\\Bunk\\bunk\\Bunk.Service\\obj\\",
+      "outputPath": "E:\\Bunk\\bunk\\Bunk.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,8 +58,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj": {
-              "projectPath": "D:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj"
+            "E:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj": {
+              "projectPath": "E:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj"
             }
           }
         }
