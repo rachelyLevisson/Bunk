@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj": {}
+    "C:\\Users\\לויסון\\Desktop\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj": {}
   },
   "projects": {
-    "E:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj": {
+    "C:\\Users\\לויסון\\Desktop\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj",
+        "projectUniqueName": "C:\\Users\\לויסון\\Desktop\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj",
         "projectName": "Bunk.Core",
-        "projectPath": "E:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj",
+        "projectPath": "C:\\Users\\לויסון\\Desktop\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj",
         "packagesPath": "C:\\Users\\לויסון\\.nuget\\packages\\",
-        "outputPath": "E:\\Bunk\\bunk\\Bunk.Core\\obj\\",
+        "outputPath": "C:\\Users\\לויסון\\Desktop\\Bunk\\bunk\\Bunk.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

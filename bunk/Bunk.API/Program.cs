@@ -1,8 +1,10 @@
+using Bunk.Core;
 using Bunk.Core.Repositories;
 using Bunk.Core.Services;
 using Bunk.Data;
 using Bunk.Data.Repositories;
 using Bunk.Service;
+using Microsoft.Extensions.DependencyInjection;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -30,6 +32,8 @@ builder.Services.AddScoped<IBunkerRepository, BunkerRepository>();
 builder.Services.AddDbContext<DataContext>();
 builder.Services.AddScoped<IRepositoryManager, RepositoryManager>();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 var app = builder.Build();
 

@@ -22,3 +22,15 @@ D:\Bunk\bunk\Bunk.Core\obj\Debug\net6.0\Bunk.Core.dll
 D:\Bunk\bunk\Bunk.Core\obj\Debug\net6.0\refint\Bunk.Core.dll
 D:\Bunk\bunk\Bunk.Core\obj\Debug\net6.0\Bunk.Core.pdb
 D:\Bunk\bunk\Bunk.Core\obj\Debug\net6.0\ref\Bunk.Core.dll
+C:\Users\לויסון\Desktop\Bunk\bunk\Bunk.Core\bin\Debug\net6.0\Bunk.Core.deps.json
+C:\Users\לויסון\Desktop\Bunk\bunk\Bunk.Core\bin\Debug\net6.0\Bunk.Core.dll
+C:\Users\לויסון\Desktop\Bunk\bunk\Bunk.Core\bin\Debug\net6.0\Bunk.Core.pdb
+C:\Users\לויסון\Desktop\Bunk\bunk\Bunk.Core\obj\Debug\net6.0\Bunk.Core.csproj.AssemblyReference.cache
+C:\Users\לויסון\Desktop\Bunk\bunk\Bunk.Core\obj\Debug\net6.0\Bunk.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\לויסון\Desktop\Bunk\bunk\Bunk.Core\obj\Debug\net6.0\Bunk.Core.AssemblyInfoInputs.cache
+C:\Users\לויסון\Desktop\Bunk\bunk\Bunk.Core\obj\Debug\net6.0\Bunk.Core.AssemblyInfo.cs
+C:\Users\לויסון\Desktop\Bunk\bunk\Bunk.Core\obj\Debug\net6.0\Bunk.Core.csproj.CoreCompileInputs.cache
+C:\Users\לויסון\Desktop\Bunk\bunk\Bunk.Core\obj\Debug\net6.0\Bunk.Core.dll
+C:\Users\לויסון\Desktop\Bunk\bunk\Bunk.Core\obj\Debug\net6.0\refint\Bunk.Core.dll
+C:\Users\לויסון\Desktop\Bunk\bunk\Bunk.Core\obj\Debug\net6.0\Bunk.Core.pdb
+C:\Users\לויסון\Desktop\Bunk\bunk\Bunk.Core\obj\Debug\net6.0\ref\Bunk.Core.dll

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KX9KHSM2tjnbpmFL+1frlAT+WAE/V5nzgYxeD0DMzTmo96AxKTToezcICvJ1HxAkKyIKRN6xB2g41ivpCmhGsw==",
+  "dgSpecHash": "ofsJlfYHdl0IuZPFiAvThwBtbtge1P+3tGglbYVEJLwurUmxO8/TFjmBCt2MyVN2wcIfk9CCoFR0CD5Q9sOb5g==",
   "success": true,
-  "projectFilePath": "E:\\Bunk\\bunk\\Bunk.Data\\Bunk.Data.csproj",
+  "projectFilePath": "C:\\Users\\לויסון\\Desktop\\Bunk\\bunk\\Bunk.Data\\Bunk.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\לויסון\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\לויסון\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\לויסון\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\לויסון\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",

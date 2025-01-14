@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "voSJOXSuhexMq54uBEbqNPUkjQULFEVMH92mureaXOCC4awgCkX26BGrkV4W3JdpCAmI9xuFshOXq7sWMiel1w==",
+  "dgSpecHash": "isK9NbYw1cv2Hbv8LS3zsMTxiyaCkAL+cBP7MYemZanUCaZCium89njhzaY3RvD6RHq/jr38ADx2B+jSXHxFPQ==",
   "success": true,
-  "projectFilePath": "E:\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\לויסון\\Desktop\\Bunk\\bunk\\Bunk.Core\\Bunk.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\לויסון\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\לויסון\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\לויסון\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\לויסון\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\לויסון\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
