@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bunk.API", "Bunk.API\Bunk.API.csproj", "{BAC23230-68A1-41CB-B018-9C441FE59A0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bunk.API", "Bunk.API\Bunk.API.csproj", "{BAC23230-68A1-41CB-B018-9C441FE59A0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bunk.Core", "Bunk.Core\Bunk.Core.csproj", "{53B2C3F5-2020-45F5-B61B-08541D92BC42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bunk.Core", "Bunk.Core\Bunk.Core.csproj", "{53B2C3F5-2020-45F5-B61B-08541D92BC42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bunk.Data", "Bunk.Data\Bunk.Data.csproj", "{9144E327-2910-47D5-BCE6-E9A70851DDAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bunk.Data", "Bunk.Data\Bunk.Data.csproj", "{9144E327-2910-47D5-BCE6-E9A70851DDAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bunk.Service", "Bunk.Service\Bunk.Service.csproj", "{8395F423-7295-4EE2-B9D1-AA69119AFB21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bunk.Service", "Bunk.Service\Bunk.Service.csproj", "{8395F423-7295-4EE2-B9D1-AA69119AFB21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

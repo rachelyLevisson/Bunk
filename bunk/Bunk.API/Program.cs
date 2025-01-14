@@ -4,7 +4,6 @@ using Bunk.Core.Services;
 using Bunk.Data;
 using Bunk.Data.Repositories;
 using Bunk.Service;
-using Microsoft.Extensions.DependencyInjection;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
