@@ -18,9 +18,29 @@ namespace Bunk.Service
             _bunkerRepository = bunkerRepository;
         }
 
+        public Bunker Add(Bunker bunker)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Bunker> GetAll()
         {
             return _bunkerRepository.GetList();
+        }
+
+        public Bunker? GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Bunker Update(Bunker bunker)
+        {
+            throw new NotImplementedException();
         }
     }
 }

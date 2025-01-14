@@ -1,4 +1,6 @@
-﻿using Bunk.Core.Entity;
+﻿using AutoMapper;
+using Bunk.Core.DTOs_Model;
+using Bunk.Core.Entity;
 using Bunk.Service;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,10 +16,11 @@ namespace Bunk.API.Controllers
     public class CustomerController : ControllerBase
     {
         private readonly CustomerService _customerService;
-
-        public CustomerController(CustomerService customerService)
+        private readonly IMapper _mapper;
+        public CustomerController(CustomerService customerService, IMapper mapper)
         {
             _customerService = customerService;
+            _mapper = mapper;
         }
 
         // GET: api/<CustomerController>
@@ -25,15 +28,18 @@ namespace Bunk.API.Controllers
         public ActionResult Get()
         {
             var customers = _customerService.GetList();
-            return Ok(customers);
+            var listDTO = _mapper.Map<IEnumerable<CustomerDTO>>(customers);
+            return Ok(listDTO);
         }
 
         // GET api/<CustomerController>/5
         [HttpGet("{id}")]
         public ActionResult Get(int id)
         {
-            var custmers = _customerService.GetById(id);
-            return Ok(custmers);
+            var customers = _customerService.GetById(id);
+            var customerDTO = _mapper.Map<CustomerDTO>(customers);
+
+            return Ok(customerDTO);
         }
 
         // POST api/<CustomerController>

@@ -13,6 +13,8 @@ namespace Bunk.Core
     {
         public MappingProfile()
         {
+            CreateMap<Account,AccountDTO>().ReverseMap();
+            CreateMap<Bunker,BunkerDTO>().ReverseMap();
             CreateMap<Customer,CustomerDTO>().ReverseMap();
         }
     }

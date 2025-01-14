@@ -1,4 +1,6 @@
-﻿using Bunk.Core.Entity;
+﻿using AutoMapper;
+using Bunk.Core.DTOs_Model;
+using Bunk.Core.Entity;
 using Bunk.Service;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,25 +13,32 @@ namespace Bunk.API.Controllers
     public class BunkerController : ControllerBase
     {
         private readonly BunkerService _bunkerService;
+        private readonly IMapper _mapper;
 
-        public BunkerController(BunkerService bunkerService)
+        public BunkerController(BunkerService bunkerService,IMapper mapper)
         {
             _bunkerService = bunkerService;
+            _mapper = mapper;
         }
 
 
         // GET: api/<BunkerController>
         [HttpGet]
-        public IEnumerable<Bunker> Get()
+        public ActionResult<Bunker> Get()
         {
-            return _bunkerService.GetAll();
+            var bunker = _bunkerService.GetAll();
+            var listDTO = _mapper.Map<IEnumerable<BunkerDTO>>(bunker);
+            return Ok(listDTO);
         }
 
         // GET api/<BunkerController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public ActionResult Get(int id)
         {
-            return "value";
+            var bunker = _bunkerService.GetById(id);
+            var bunkerDTO = _mapper.Map<BunkerDTO>(bunker);
+
+            return Ok(bunkerDTO);
         }
 
         // POST api/<BunkerController>

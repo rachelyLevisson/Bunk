@@ -10,5 +10,13 @@ namespace Bunk.Core.Services
     public interface IBunkerService
     {
         List<Bunker> GetAll();
+
+        Bunker? GetById(int id);
+
+        Bunker Add(Bunker bunker);
+
+        Bunker Update(Bunker bunker);
+
+        void Delete(int id);
     }
 }
